@@ -209,17 +209,20 @@ You examine the selection of consumables. Choose wisely:
     <th>Role</th>
   </tr>
   <tr>
-    <td>img</td>
+    <td><img width="120" height="144" alt="image" src="https://github.com/user-attachments/assets/066d74e0-38d1-4a9a-82eb-753e99511e45" />
+</td>
     <td>Matanguihan, Bridget O.</td>
     <td>Developer, Designer and Tester</td>
   </tr>
   <tr>
-    <td>img</td>
+    <td><img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/8b72db07-2a9f-4856-812c-eab31cf95cc8" />
+</td>
     <td>Navarro, Precious Adelline V.</td>
     <td>Developer, Designer and Tester</td>
   </tr>
   <tr>
-    <td>img</td>
+    <td><img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/2499f4ec-f7d8-48ce-8e9a-85650af044d6" />
+</td>
     <td>Sitjar, Cyril P.</td>
     <td>Developer, Designer and Tester</td>
   </tr>
@@ -234,4 +237,4 @@ FUTURE ENHANCEMENT
 <p>
 <hr>
 
-<p align="center"><i>End of Documentation</i></p>
+<p align="center"><i>Have fun playing Hunger Games!</i></p>
