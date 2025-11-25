@@ -224,6 +224,14 @@ You examine the selection of consumables. Choose wisely:
     <td>Developer, Designer and Tester</td>
   </tr>
 </table>
+
+<p>
+FUTURE ENHANCEMENT
+
+ Addition of graphical user interface for a better game experience. <br>
+ In terms of  challenges,the future developer could add more to it for long game experience. <br>
+ The rules can be modified. <br>
+<p>
 <hr>
 
 <p align="center"><i>End of Documentation</i></p>
