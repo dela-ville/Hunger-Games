@@ -158,8 +158,8 @@ Step-by-step to run the program: <br>
 <br>
 Step-by-step to play the game: <br>
    Upon starting the program, it will display a question where it asks the user's chosen name to act as the hero’s name. <br>
-   After that they will choose a ‘Role’ that will serve as their character all throughout the journey.  <br>
-   Then they will start their adventure and  then encounter the challenges. <br>
+   After that they will choose between Warrior, Ranger, or Scout -- a ‘Role’ that will serve as their character all throughout the journey.  <br>
+   Then they will start their adventure and encounter the challenges. <br>
 
 </p>
 
