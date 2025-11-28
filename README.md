@@ -122,7 +122,7 @@ Numerous utility functions (slowPrint, getStatusString, runCombatEvent) are used
 
 <pre>
 Hunger-Games/
- ├── game/
+ └── game/
      ├── GameEvent.java                    
      └── Main.java   
      └── characters/
