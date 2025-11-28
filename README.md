@@ -125,7 +125,7 @@ Hunger-Games/
  ├── game/
  │   ├── GameEvent.java                    
  │   └── Main.java                                 
- ├── character/
+ ├── characters/
  │   ├── Hero.java                                 # Abstract base class for players (stats, getters/setters, fight contract)
  │   └── jobs/
  │       ├── Warrior.java                          # Concrete player class (high strength, low agility)
