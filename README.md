@@ -121,28 +121,24 @@ Numerous utility functions (slowPrint, getStatusString, runCombatEvent) are used
 <h2 id="structure"> Program Structure</h2>
 
 <pre>
-FinancialHungerGame/
- ├── Main.java                                      # Application entry point, main loop, and configuration constants
+Hunger-Games/
  ├── game/
- │   ├── GameEvent.java                            # Encapsulates a day's challenge and type (COMBAT, ITEM_FIND_...)
- │   └── LogicHub.java                             # Static methods controlling main game flow (runDay, runCombatEvent, runItemFindEvent)
+ │   ├── GameEvent.java                    
+ │   └── Main.java                                 
  ├── character/
- │   ├── Hero.java (abstract)                      # Abstract base class for players (stats, getters/setters, fight contract)
- │   └── classes/
+ │   ├── Hero.java                                 # Abstract base class for players (stats, getters/setters, fight contract)
+ │   └── jobs/
  │       ├── Warrior.java                          # Concrete player class (high strength, low agility)
  │       ├── Ranger.java                           # Concrete player class (balanced stats)
  │       └── Scout.java                            # Concrete player class (high agility, low strength)
- ├── item/
- │   ├── Rechargeable.java (interface)             # Contract for consumable items (use, getItemName)
- │   └── consumables/
- │       ├── GlowingApple.java                     # Concrete item: Health restoration
- │       ├── ShadowyBerries.java                   # Concrete item: Endurance restoration
- │       ├── PaleRoot.java                         # Concrete item: Health/Endurance restoration (less effective)
- │       └── AncientVial.java                      # Concrete item: Major health and endurance restoration
- └── utility/
-     ├── Scanner.java (usage)                      # Handles user input for choices
-     ├── Random.java (usage)                       # Generates random numbers for events and outcomes
-     └── DisplayHub.java                           # Contains static methods for I/O and styling (slowPrint, getStatusString)
+ ├── items/
+ │   ├── Rechargeable.java                         # Contract for consumable items (use, getItemName)
+ │   ├── GlowingApple.java                         # Concrete item: Health restoration
+ │   ├── ShadowyBerries.java                       # Concrete item: Endurance restoration
+ │   ├── PaleRoot.java                             # Concrete item: Health/Endurance restoration (less effective)
+ │   └── AncientVial.java                          # Concrete item: Major health and endurance restoration
+ └── utils/
+     └── ConsoleHelper.java
 </pre>
 
 <hr>
