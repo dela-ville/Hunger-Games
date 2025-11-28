@@ -1,7 +1,7 @@
-package FinancialHungerGame.character.classes;
+package Main.character.classes;
 
-import FinancialHungerGame.character.Hero;
-import FinancialHungerGame.utility.DisplayHub;
+import Main.character.Hero;
+import Main.utility.DisplayHub;
 import java.util.Random;
 
 public class Ranger extends Hero {
