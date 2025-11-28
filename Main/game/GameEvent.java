@@ -1,4 +1,4 @@
-package FinancialHungerGame.game;
+package Main.game;
 
 class GameEvent {
     public final String description;
