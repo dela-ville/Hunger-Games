@@ -1,9 +1,9 @@
-package FinancialHungerGame.game;
+package Main.game;
 
-import FinancialHungerGame.character.Hero;
-import FinancialHungerGame.item.Rechargeable;
-import FinancialHungerGame.utility.DisplayHub;
-import FinancialHungerGame.utility.InputScanner;
+import Main.character.Hero;
+import Main.item.Rechargeable;
+import Main.utility.DisplayHub;
+import Main.utility.InputScanner;
 
 import java.util.Random;
 
