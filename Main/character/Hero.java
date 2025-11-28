@@ -1,6 +1,6 @@
-package FinancialHungerGame.character;
+package Main.character;
 
-import FinancialHungerGame.utility.DisplayHub;
+import Main.utility.DisplayHub;
 
 public abstract class Hero {
     private String name;
