@@ -122,23 +122,24 @@ Numerous utility functions (slowPrint, getStatusString, runCombatEvent) are used
 
 <pre>
 Hunger-Games/
- └── game/
-     ├── GameEvent.java                    
-     └── Main.java   
-     └── characters/
-     │   ├── Hero.java                                 # Abstract base class for players (stats, getters/setters, fight contract)
-     │   └── jobs/
-     │       ├── Warrior.java                          # Concrete player class (high strength, low agility)
-     │       ├── Ranger.java                           # Concrete player class (balanced stats)
-     │       └── Scout.java                            # Concrete player class (high agility, low strength)
-     └── items/
-     │   ├── Rechargeable.java                         # Contract for consumable items (use, getItemName)
-     │   ├── GlowingApple.java                         # Concrete item: Health restoration
-     │   ├── ShadowyBerries.java                       # Concrete item: Endurance restoration
-     │   ├── PaleRoot.java                             # Concrete item: Health/Endurance restoration (less effective)
-     │   └── AncientVial.java                          # Concrete item: Major health and endurance restoration
-     └── utils/
-         └── ConsoleHelper.java
+ ├── game/
+ │    ├── characters/
+ │    │   ├── Hero.java                                 # Abstract base class for players (stats, getters/setters, fight contract)
+ │    │   └── jobs/
+ │    │       ├── Warrior.java                          # Concrete player class (high strength, low agility)
+ │    │       ├── Ranger.java                           # Concrete player class (balanced stats)
+ │    │       └── Scout.java                            # Concrete player class (high agility, low strength)
+ │    ├── GameEvent.java    
+ │    ├── items/
+ │    │   ├── Rechargeable.java                         # Contract for consumable items (use, getItemName)
+ │    │   ├── GlowingApple.java                         # Concrete item: Health restoration
+ │    │   ├── ShadowyBerries.java                       # Concrete item: Endurance restoration
+ │    │   ├── PaleRoot.java                             # Concrete item: Health/Endurance restoration (less effective)
+ │    │   └── AncientVial.java                          # Concrete item: Major health and endurance restoration
+ │    ├── Main.java   
+ │    └── utils/
+ │         └── ConsoleHelper.java
+ └── README.md 
 </pre>
 
 <hr>
