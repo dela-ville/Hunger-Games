@@ -1,4 +1,4 @@
-<h1 align="center"> Hunger Games: Financial Survival Edition</h1>
+<h1 align="center"> Hunger Games: Survival Edition</h1>
 
 <p align="center"><i>A Java Console Game Using OOP Concepts</i></p>
 
@@ -196,7 +196,7 @@ You examine the selection of consumables. Choose wisely:
 
 <hr>
 
-<!-- ACKNOWLEDGEMENT -->
+<!-- AUTHOR & ACKNOWLEDGEMENT -->
 <h2 id="acknowledgment"> Acknowledgement</h2>
 
 <table>
